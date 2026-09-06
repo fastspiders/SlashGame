@@ -1,0 +1,66 @@
+# =============================================
+# Unreal Engine 4/5 项目 .gitignore
+# =============================================
+
+# ---- Visual Studio 用户/缓存文件 ----
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- 工程文件（可由 UBT 重新生成）----
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# ---- 编译产物 ----
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# ---- Unreal 生成/中间/缓存目录 ----
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# ---- 商城/引擎自带资源包（可经 Epic Launcher 重新下载，不纳入版本管理）----
+Content/MedievalDungeon/
+Content/StarterContent/
+Content/AnimalVarietyPack/
+Content/Characters/
+
+# ---- 编译器/链接器中间产物 ----
+*.tps
+*.pdb
+*.mdb
+*.opendb
+*.csproj.user
+*.vcxproj.user
+
+# ---- 其它常见缓存 ----
+*.log
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
